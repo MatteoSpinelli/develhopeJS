@@ -1,11 +1,5 @@
-# Conditionals & Loops - Exercise 7
+# Object Copying - Exercise 1
 
-Create a function `sumUntil` that takes in a parameter and retunrs the sum of all numbers ranging from one to the value passed as parameter.
+In this exercise we have created two objects: `person1` e `person2`. The object `person2` has been assigned to the object `person1`. You should modify the property `firstName` of the object `person2` in "Simon".
 
-Example:
-
-function sumUntil(maxValue) {
-// ...
-}
-
-console.log(sumUntil(5)); // OUTPUT: 15
+Write a comment explaining why, by modifying the object `person2`, also the object `person1` would be modified.
