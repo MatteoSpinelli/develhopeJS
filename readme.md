@@ -1,3 +1,11 @@
-# Arrow functions - Exercise 3
+# Conditionals & Loops - Exercise 7
 
-Turn the variables functions into arrow functions and combine the functions so that the result of the following mathematical operation is printed on the console: `((2 + 4) * (5 + 2) - 2) / 5`
+Create a function `sumUntil` that takes in a parameter and retunrs the sum of all numbers ranging from one to the value passed as parameter.
+
+Example:
+
+function sumUntil(maxValue) {
+// ...
+}
+
+console.log(sumUntil(5)); // OUTPUT: 15
