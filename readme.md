@@ -1,8 +1,11 @@
 # Exercise Closures
 
-Starting from the previous exercise, are you able to print the value of `helloName`, after 1 second?
+Write a new `closure`: create a function called `multiplyByTwo` that takes in one parameter.
+Inside the `multiplyByTwo` function, create a function called `inner`. This function will take care of multiplying the parameter passed as input and multiply it by the variable named `number`
+Print in the console the function output.
+
+Example: `multiplyByTwo(4)()`, result: `8`
 
 Tips:
 
-- The method that you need to solve the exercise is: `setTimeout`
-- You can learn more about the topic checking this article: https://www.freecodecamp.org/news/closures-in-javascript/
+- You can learn more about this topic checking this article: https://www.freecodecamp.org/news/closures-in-javascript/
