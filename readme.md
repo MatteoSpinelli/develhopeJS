@@ -1,3 +1,3 @@
-# Optional Chaining - Exercise 2
+# Array Methods - Exercise 53
 
-In this example we are trying to check if a value for the `city` property is defined. However, the code can be simplified. How can we do that?
+Create a function called `adultFilter` that takes in an array of people and returns the ones who are of age.
