@@ -1,7 +1,7 @@
-# Array Methods - Exercise 55
+# Exercise 56
 
-Create a function called `ageAverage` that takes in an array of people and returns the average age.
+Create a function called `uncompletedNotes` that returns only not completed todos.
 
 **Suggestion**
 
-Look at the [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) and [Math.round](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round) methods to solve the exercise.
+Use the forEach and filter arrays methods.
