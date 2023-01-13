@@ -1,9 +1,3 @@
-# Object Methods - Exercise 1
+# Optional Chaining - Exercise 2
 
-Create an object `person`. Print its key/value pair in the console. Try to use the method `Object.kyes`:
-
-```
-firstName: Mario
-lastName: Rossi
-age: 25
-```
+In this example we are trying to check if a value for the `city` property is defined. However, the code can be simplified. How can we do that?
