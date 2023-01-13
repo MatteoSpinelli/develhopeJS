@@ -1,9 +1,7 @@
-# Array Methods - Exercise 54
+# Array Methods - Exercise 55
 
-Create a function called `nicknameMap` that takes in an array of people and returns an array of nicknames. The nickname should be composed in this way: `<name>-<age>`.
+Create a function called `ageAverage` that takes in an array of people and returns the average age.
 
-Example:
+**Suggestion**
 
-```
-{ name: 'Paul', age: 21 } => Paul-21
-```
+Look at the [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) and [Math.round](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round) methods to solve the exercise.
