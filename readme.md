@@ -1,7 +1,3 @@
-# Exercise 56
+# Exercise 57
 
-Create a function called `uncompletedNotes` that returns only not completed todos.
-
-**Suggestion**
-
-Use the forEach and filter arrays methods.
+Create a function called `sortPeopleByAge` that returns the people in ascending order by age.
