@@ -1,6 +1,13 @@
-# Classes - Exercise 55
+# Classes - Exercise 56
 
-Define a class called `Person` that takes in two arguments (`firstName` and `lastName`) in the constructor.
+Create a class called `Developer`. The `Developer` class is inherited from a class called `Person` that takes in two arguments in the constructor method: `firstName` and `lastName`. The `Developer` class takes in another argument in the constructor method (`role`).
 
-const developer = new Person('Mario', 'Rossi');
-console.log(developer.firstName + " " + developer.lastName);
+class Person {
+constructor(firstName, lastName) {
+this.firstName = firstName;
+this.lastName = lastName;
+}
+}
+
+const developer = new Developer("Mario", "Rossi", "Front-end");
+console.log(developer.firstName + " " + developer.lastName + " " + developer.role);
