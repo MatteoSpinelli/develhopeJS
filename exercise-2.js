@@ -1,5 +1,5 @@
 const order = {};
 
-if (!Object.keys(order).includes("city")) {
+if (!order?.city) {
   console.log('City is required');
 }
