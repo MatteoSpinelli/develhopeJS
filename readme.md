@@ -1,14 +1,34 @@
-# Classes - Exercise 58
+# Classes - Exercise 59
 
-Define a class called `Person` that takes in three parameters in the constructor (`firstName`, `lastName` and `age`). Create the getters and setters methods for each property and a getter method called `fullName` that returns the full name.
+Define a class called `AreaCalculator`. Inside it, create a static method that let you calculate the area of the geometric figure passed as parameter. The method will let you calculate the square, the rectangle and the circle area.
 
-class Person {
+class Square {
+constructor(side) {
+this.side = side;
+}
+}
+
+class Rectangle {
+constructor(width, height) {
+this.width = width;
+this.height = height;
+}
+}
+
+class Circle {
+constructor(radius) {
+this.radius = radius;
+}
+}
+
+class AreaCalculator {
 // ...
 }
 
-const person = new Person('Mario', 'Rossi', 25);
-console.log(person.fullName);
+const square = new Square(4);
+const rectangle = new Rectangle(4, 2);
+const circle = new Circle(5);
 
-person.firstName = 'Maria';
-person.lastName = 'Verdi';
-console.log(person.fullName);
+console.log(AreaCalculator.calculate(square));
+console.log(AreaCalculator.calculate(rectangle));
+console.log(AreaCalculator.calculate(circle));
