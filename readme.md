@@ -1,3 +1,5 @@
-# Optional Chaining - Exercise 2
+# Destructuring assignment - 60
 
-In this example we are trying to check if a value for the `city` property is defined. However, the code can be simplified. How can we do that?
+Use the destructuring, instead of a temporary variable, to swap the values of the variables.
+
+**Suggestion:** look at the official documentation [<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
