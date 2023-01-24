@@ -1,4 +1,3 @@
-# Destructuring assignment - Exercise 62
+# Destructuring assignment - 63
 
-Use the destructuring to make the check of the age easier. Try to modify the parameter that the function `isAdult` takes in.
-Suggestion: look at the official documentation[ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+The destructuring returns `undefined` for the properties: `name`, `surname` and `old`. Try to fix the code without changing the name properties of the object `person`.
