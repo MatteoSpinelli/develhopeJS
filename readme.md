@@ -1,10 +1,3 @@
-# Rest parameters and spread syntax
+# Rest parameters and spread syntax - Exercise 65
 
-Do you know how to "merge" the value of the `newNumber ` variable into `numberStore` without using the array method push?
-
-```
-let numberStore = [0, 1, 2];
-let newNumber = 3;
-numberStore.push(newNumber);
-console.log(numberStore);
-```
+The `sum` function has a high numbers of parameters. How can we improve the code in order to make it accept an unknown numbers to sum?
