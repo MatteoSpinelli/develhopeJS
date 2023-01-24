@@ -1,5 +1,5 @@
 const order = {};
 
-if (!order?.city) {
+if (!order?.customer?.address?.city) {
   console.log('City is required');
 }
