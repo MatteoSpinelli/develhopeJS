@@ -1,3 +1,3 @@
-# Rest parameters and spread syntax - Exercise 65
+# Rest parameters and spread syntax
 
-The `sum` function has a high numbers of parameters. How can we improve the code in order to make it accept an unknown numbers to sum?
+Perform a code refactoring by using the Rest operator. The output of the console.log must not change.
