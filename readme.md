@@ -1,3 +1,3 @@
-# Rest parameters and spread syntax
+# JSON methods - Exercise 2
 
-Perform a code refactoring by using the Rest operator. The output of the console.log must not change.
+Create the `fromJson` method that takes in a json as parameter and returns an object of type `Person`.
