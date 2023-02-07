@@ -1,5 +1,6 @@
 function repeatHello(callback){
     let id = setInterval(callback, 1000)
+    setTimeout(() => clearInterval(id), 5020)
 }
 
-repeatHello(() => console.log("hello"))
+repeatHello(() => console.log("Hello"))
