@@ -1,6 +1,9 @@
-function repeatHello(callback){
-    let id = setInterval(callback, 1000)
-    setTimeout(() => clearInterval(id), 5020)
+class Person {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
 }
 
-repeatHello(() => console.log("Hello"))
+const developer = new Person("Mario", "Rossi");
+console.log(`${developer.firstName} ${developer.lastName}`);

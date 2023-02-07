@@ -1,8 +1,12 @@
-# Exercise Async Callback
+Perform a code refactoring by using the Template Literals.
 
-Starting from the previous exercise, we want to add to our function `repeatHello`, a `clearInterval` after 5 seconds, could you do that?
+`class Person {
+constructor(firstName, lastName) {
+this.firstName = firstName;
+this.lastName = lastName;
+}
+}
 
-Tips:
-
-- The `setInterval` and `setTimeout` methods will be useful
-- The callback function must be an arrow function, can you also explain why?
+const developer = new Person("Mario", "Rossi");
+console.log(developer.firstName + " " + developer.lastName);
+`
