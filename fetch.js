@@ -4,7 +4,7 @@ function setImage(url){
 }
 
 
-fetch("https://dog.ceo/api/breeds/image/random")
+let we = fetch("https://dog.ceo/api/breeds/image/random")
     .then(val => val.json())
     .then(json => setImage(json.message))
     .catch(err => console.error(err))
