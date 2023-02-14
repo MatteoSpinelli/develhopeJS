@@ -5,8 +5,11 @@ const user = {
 };
 
 function saveUser(user){
-    const userJson = JSON.stringify(user)
-    localStorage.setItem("user", userJson)
+  localStorage.setItem("user", JSON.stringify(user))
+}
+function getUser(){
+  return JSON.parse(localStorage.getItem("user"))
 }
 
 saveUser(user)
+console.log(getUser())
