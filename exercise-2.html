@@ -21,5 +21,6 @@
 
 <script>
   let text = document.getElementsByClassName("form-input")
-  console.log(text[0].value, text[1].value)
+  text = [...text]
+  text.forEach(element => console.log(element.value));
 </script>
